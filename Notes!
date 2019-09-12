@@ -1,0 +1,13 @@
+well in the incremental loop 
+there's something that make me stupid
+even though am already stupid but yeah this is super stupid
+###########################################################
+syntex 
+for value in {1..2..3}
+	      |  |  |____________z
+	      |  |____________y
+	      |___________x	 
+if x > y ; then is ++
+elif x < y; then is --
+where "z" show the value to increment or decrement
+elif x == y; then show the value the first value
