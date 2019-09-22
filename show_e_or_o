@@ -1,0 +1,12 @@
+#!/bin/bash
+num_=1
+until [ $num_ -gt 10 ]
+	do
+	(($num_++))
+	if [ $num_%2==0 ]; then 
+		echo "$num_ even"
+	else 
+	echo "$num_ odd"
+fi
+done
+
