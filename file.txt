@@ -1,9 +1,0 @@
-username:  here we go
-password:  first
-
-username:  aminatu
-password:  my love
-
-username:  fuck you
-password:  i dont know
-
