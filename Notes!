@@ -2,7 +2,7 @@ well in the incremental loop
 there's something that make me stupid
 even though am already stupid but yeah this is super stupid
 ###########################################################
-syntex 
+syntax 
 for value in {1..2..3}
 	      |  |  |____________z
 	      |  |____________y
