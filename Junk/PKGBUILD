@@ -1,0 +1,23 @@
+# This is an example PKGBUILD file. Use this as a start to creating your own,
+# and remove these comments. For more information, see 'man PKGBUILD'.
+# NOTE: Please fill out the license field for your package! If it is unknown,
+# then please put 'unknown'.
+
+# Maintainer: blackdracula18 <blackdracula18@yahoo.com>
+_pkgname=scripts
+pkgname=scripts-git
+pkgrel=1
+pkgver=1.0.0
+url="https://github.com/blackdracula18"
+pkgdesc="All Scripts Use by blackdracula18"
+arch=("x86_64")
+PACKAGER="blackdracula18 <blackdracula18@yahoo.com>"
+source=("$_pkgname::git+${url}/${_pkgname}")
+
+package() {
+	cd "$_pkgname"
+    mkdir -p ${pkgdir}/usr/share/blackdracula18/Scripts
+    rm README.md
+	cp -r * ${pkgdir}/usr/share/blackdracula18/Scripts
+}
+
